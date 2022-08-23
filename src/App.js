@@ -21,7 +21,7 @@ class Post extends React.Component {
    event.preventDefault();
 
     if (!isNaN(this.state.cityName)) {
-      this.setState({ currentState: '', helperText: 'Cityname does not contain any numberic characters' });
+      this.setState({ currentState: '', helperText: 'Cityname can not contain numberic characters' });
     return;
 
     }
@@ -118,7 +118,7 @@ class Post extends React.Component {
               <div>
                 <input id="Name" placeholder={"i.e Melbourne, Sydney etc"} onChange={this.handleChange} />
 
-                <input type="submit" value="Get my forecast!" />
+                <input type="submit" value="Get Weather!" />
                 {
                   (this.state.helperText.length > 0) &&
                   (
