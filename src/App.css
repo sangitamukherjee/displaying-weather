@@ -1,0 +1,109 @@
+
+.cityName-text-label {
+  margin-bottom: 12px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cityName-input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-state {
+  text-transform: capitalize;
+}
+
+.cityname {
+  text-transform: capitalize;
+}
+
+#cityName-text {
+  margin-right: 6px;
+}
+
+.App h4, .App h5, .App h3, .App h2, .App h1, .App p {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #D3D3D3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+  background-color: black;
+}
+.App {
+  background-color: white;
+  width: 100%auto;
+  height:100%auto;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+  .App {
+    background-color: blue;
+    width: 100%auto;
+    height:100%auto;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+  background-color: red;
+}
+.App {
+  background-color: yellow;
+  width: 100%auto;
+  height:100%auto;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+}
+}
+@media only screen and (min-width: 992px) {
+  body {
+  background-color: brown;
+}
+.App {
+  background-color: orange;
+  width: 100%auto;
+  height:100%auto;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+}
+}
+@media only screen and (min-width: 1200px) {
+  body {
+  background-color: violet;
+}
+.App {
+  background-color: pink;
+  width: 100%auto;
+  height:100%auto;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 12px;
+}
+}
